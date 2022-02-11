@@ -1,2 +1,4 @@
 # Stackzer
-Its a component library
+Upload Image Component
+![Screenshot](Screenshot%20(126).png)
+![Screenshot](Screenshot%20(127).png)
