@@ -1,2 +1,3 @@
 # Stackzer
-Its a component library
+Screenshot of Badge Component
+![Screenshot](Screenshot%20(121).png)
