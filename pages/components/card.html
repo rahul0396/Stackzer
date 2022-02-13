@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stackzer UI | Introduction</title>
+
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- highlight.js cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css"
+    />
+
+    <!-- Link main css -->
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- stackzerui-documentation css -->
+    <link rel="stylesheet" href="../../app.css" />
+  </head>
+  <body>
+    <div class="container documentation m-auto p-2">
+      <!-- Header Documentation Starts -->
+
+      <header class="header header-documentation">
+        <img
+        class="img-brand-logo"
+        src="/assets/brand-logos/brand-logo.jpg"
+        alt="brand logo png"
+      />
+        <a class="link-brand mx-1" href="../../index.html">Stackzer UI</a>
+
+        <nav class="ml-auto">
+          <ul>
+            <li class="inline-block mx-1">
+              <a class="link" href="../../index.html">Home</a>
+            </li>
+            <li class="inline-block mx-1">
+              <a class="link" href="/pages/getting-started/introduction.html">Docs</a>
+            </li>
+            <li class="inline-block mx-1">
+              <a
+                class="link"
+                href="https://github.com/rahul0396/Stackzer"
+                target="_blank"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Header Documentation Ends -->
+
+      <!-- Aside Left Starts -->
+
+      <aside class="aside-left">
+        <nav class="aside-container aside-left-container">
+          <ul class="aside-left-list mb-3">
+            <h3 class="my-1p5">Getting Started</h3>
+            <li class="aside-link">
+              <a class="link link-active" href="/pages/getting-started/introduction.html"
+                >Introduction</a
+              >
+            </li>
+
+      
+
+          <ul class="aside-left-list mb-3">
+            <h3 class="my-1p5">Components</h3>
+            <li class="aside-link">
+              <a class="link" href="../components/alert.html">Alert</a>
+            </li>
+            <li class="aside-link">
+              <a class="link" href="../components/avatar.html">Avatar</a>
+            </li>
+            <li class="aside-link">
+              <a class="link" href="../components/badge.html">Badge</a>
+            </li>
+            <li class="aside-link">
+              <a class="link" href="../components/button.html">Button</a>
+            </li>
+            <li class="aside-link">
+              <a class="link" href="../components/card.html">Card</a>
+            </li>
+            <li class="aside-link">
+              <a class="link" href="../components/image.html">Image</a>
+            </li>
+            <li class="aside-link">
+              <a class="link" href="../components/input.html">Input</a>
+            </li>
+            
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- Aside Left Ends -->
+      <!-- Main Documentation Starts -->
+
+      <main class="main-documentation">
+        <h1 class="mb-3">Card</h1>
+        <p class="main-text">
+          Cards can be proved very useful. You can use them to display content
+          on an e-commerce app, or on a video library app. You can also use them
+          to show user feedback in the form of text-only card on your site.
+        </p>
+
+        <!-- Horizontal Text Card Starts -->
+
+        <section class="my-2 section-component" id="card-horizontal">
+          <h2 class="my-2">Horizontal Text Card</h2>
+
+          <div class="component-container pt-2">
+            <div class="card card-horizontal">
+              <img
+              class="avatar"
+              src="/assets/images/avatar1.png"
+              alt=" avatar1 "
+            />
+
+            <div>
+              <h1 class="card-head">Men </h1>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi culpa quidem sunt obcaecati, pariatur labore id ullam, ad voluptates amet magni iste architecto quibusdam officiis.
+              </p>
+  
+              <div class="card-horizontal-footer">
+                <button class="card-icon-btn">
+                  <i class="far fa-comment m-auto"></i>
+                </button>
+                <button class="card-icon-btn">
+                  <i class="far fa-heart m-auto"></i>
+                </button>
+                <button class="card-icon-btn">
+                  <i class="far fa-share-square m-auto"></i>
+                </button>
+                </div>
+              </div>
+            </div>
+
+            <pre class="pre-code">
+              <code class="language-html">      
+        &lt;div class="card card-horizontal">
+            &lt;img class="card-horizontal-img" src="..." alt="..." />
+    
+            &lt;div>
+                &lt;h1 class="card-head">Men&lt;/h1>
+                &lt;p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi culpa quidem sunt obcaecati, pariatur labore id ullam, ad voluptates amet magni iste architecto quibusdam officiis.
+                &lt;/p>
+    
+                &lt;div class="card-horizontal-footer">
+                    &lt;button class="card-icon-btn">
+                        &lt;i class="far fa-comment m-auto">&lt;/i>
+                    &lt;/button>
+                    &lt;button class="card-icon-btn">
+                        &lt;i class="far fa-heart m-auto">&lt;/i>
+                    &lt;/button>
+                    &lt;button class="card-icon-btn">
+                        &lt;i class="far fa-share-square m-auto">&lt;/i>
+                    &lt;/button>
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+              </code>
+            </pre>
+          </div>
+        </section>
+
+        <!-- Horizontal Text Card Ends -->
+
+        <!-- Vertical Item Card Starts -->
+
+        <section class="my-2 section-component" id="card-vertical">
+          <h2 class="my-2">Vertical Item Card</h2>
+
+          <div class="component-container pt-2">
+            <div class="card card-vertical">
+              <div class="card-vertical-header">
+                <span class="status-badge">In stock </span>
+
+                <button class="card-icon-btn ml-auto">
+                  <i class="far fa-heart m-auto"></i>
+                </button>
+              </div>
+
+              <img
+              class="card-vertical-img"
+              src="/assets/images/peanut butter Natural 1.jpg"
+              alt="peanut butter img"
+            />
+  
+            <h1 class="card-head">Healthy by nature Peanut Butter</h1>
+            <p class="card-text">
+              Peanut Butter is made up from the finest grade, fresh and nutritious Peanuts from an ISO 22000 Certified and FSSAI approved Factory.
+            </p>
+  
+            <div class="card-vertical-footer">
+              <span class="current-price"><strong>₹299</strong></span>
+              <span class="earlier-price">₹599</span>
+              <span class="pct-off">50% off</span>
+            </div>
+            </div>
+
+            <pre class="pre-code">
+              <code class="language-html">      
+        &lt;div class="card card-vertical">
+            &lt;div class="card-vertical-header">
+                &lt;span class="status-badge">In stock &lt;/span>
+    
+                &lt;button class="card-icon-btn ml-auto">
+                &lt;i class="far fa-heart m-auto">&lt;/i>
+                &lt;/button>
+            &lt;/div>
+    
+            &lt;img class="card-vertical-img" src="..." alt="..." />
+    
+            &lt;h1 class="card-head">Healthy by nature Peanut Butter&lt;/h1>
+            &lt;p class="card-text">
+            Peanut Butter is made up from the finest grade, fresh and nutritious Peanuts from an ISO 22000 Certified and FSSAI approved Factory.
+         
+            &lt;/p>
+    
+            &lt;div class="card-vertical-footer">
+                &lt;span class="current-price">
+                &lt;strong>₹299&lt;/strong>
+                &lt;/span>
+                &lt;span class="earlier-price">₹599&lt;/span>
+                &lt;span class="pct-off">50% off&lt;/span>
+            &lt;/div>
+        &lt;/div>
+              </code>
+            </pre>
+          </div>
+        </section>
+
+        <!-- Vertical Item Card Ends -->
+
+        <!-- Text Overlay Card Starts -->
+
+        <section class="my-2 section-component" id="card-text-overlay">
+          <h2 class="my-2">Text Overlay Card</h2>
+          <p class="my-2 section-text">
+            You can hover to see overlay transition
+          </p>
+
+          <div class="component-container pt-2">
+            <div class="card card-text-overlay card-vertical">
+              <img
+              class="card-vertical-img"
+              src="/assets/images/peanut butter natural1.jpg"
+              alt="peanut butter"
+            />
+  
+            <span class="card-vertical-img overlay-content"
+              ><i class="fas fa-play overlay-play-icon"></i> See More</span>
+
+              <div class="card-text-overlay-row">
+                <img
+                  class="card-horizontal-img"
+                  src="/assets/images/avatar1.png"
+                  alt="avatar 1.jpg"
+                />
+    
+                <div>
+                  <h1 class="card-head">
+                    California Gold Nutrition
+                  </h1>
+                  <p class="card-text">Peanut Butter</p>
+                </div>
+              </div>
+            </div>
+
+            <pre class="pre-code">
+                    <code class="language-html">      
+            &lt;div class="card card-text-overlay card-vertical">
+                &lt;img class="card-vertical-img" src="..." alt="..." />
+
+                &lt;span class="card-vertical-img overlay-content">
+                    &lt;i class="fas fa-play overlay-play-icon">&lt;/i> See More
+                &lt;/span>
+
+                &lt;div class="card-text-overlay-row">
+                    &lt;img class="card-horizontal-img" src="..." alt="..." />
+
+                    &lt;div>
+                        &lt;h1 class="card-head">
+                        California Gold Nutrition
+                        &lt;/h1>
+                        &lt;p class="card-text">Peanut Butter&lt;/p>
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+                    </code>
+                </pre>
+          </div>
+        </section>
+
+        <!-- Text Overlay Card Ends -->
+
+        <!-- Dismiss Card with Shadow Starts -->
+
+        <section class="my-2 section-component" id="card-dismiss">
+          <h2 class="my-2">Dismiss Card with Shadow</h2>
+
+          <div class="component-container pt-2">
+            <div class="card card-dismiss">
+              <button class="card-icon-btn ml-auto">
+                <i class="fas fa-times m-auto"></i>
+              </button>
+
+              <h1 class="card-head">Heading</h1>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+
+            <pre class="pre-code">
+                    <code class="language-html">      
+            &lt;div class="card card-dismiss">
+                &lt;button class="card-icon-btn ml-auto">
+                    &lt;i class="fas fa-times m-auto">&lt;/i>
+                &lt;/button>
+        
+                &lt;h1 class="card-head">Heading&lt;/h1>
+                &lt;p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing 
+                    elit, sed do eiusmod tempor incididunt ut labore et 
+                    dolore magna aliqua.
+                &lt;/p>
+            &lt;/div>
+                    </code>
+                </pre>
+          </div>
+        </section>
+
+        <!-- Dismiss Card with Shadow Ends -->
+      </main>
+
+      <!-- Main Documentation Ends -->
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>

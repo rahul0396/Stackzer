@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stackzer UI | Avatar</title>
+
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- highlight.js cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css"
+    />
+
+    <!-- Link main css -->
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- stackzerui-documentation css -->
+    <link rel="stylesheet" href="../../app.css" />
+  </head>
+  <body>
+    <div class="container documentation m-auto p-2">
+      <!-- Header Documentation Starts -->
+
+      <header class="header header-documentation">
+        <img
+        class="img-brand-logo"
+        src="/assets/brand-logos/brand-logo.jpg"
+        alt="brand logo png"
+      />
+        <a class="link-brand mx-1" href="../../index.html">Stackzer UI</a>
+
+        <nav class="ml-auto">
+          <ul>
+            <li class="inline-block mx-1">
+              <a class="link" href="../../index.html">Home</a>
+            </li>
+            <li class="inline-block mx-1">
+              <a class="link" href="/pages/getting-started/introduction.html">Docs</a>
+            </li>
+            <li class="inline-block mx-1">
+              <a
+                class="link"
+                href="https://github.com/rahul0396/Stackzer"
+                target="_blank"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Header Documentation Ends -->
+
+      <!-- Aside Left Starts -->
+
+      <aside class="aside-left">
+        <nav class="aside-container aside-left-container">
+          <ul class="aside-left-list mb-3">
+            <h3 class="my-1p5">Getting Started</h3>
+            <li class="aside-link">
+              <a class="link link-active" href="/pages/getting-started/introduction.html"
+                >Introduction</a
+              >
+            </li>
+
+      
+
+          <ul class="aside-left-list mb-3">
+            <h3 class="my-1p5">Components</h3>
+            <li class="aside-link">
+              <a class="link" href="../components/alert.html">Alert</a>
+            </li>
+            <li class="aside-link">
+              <a class="link" href="../components/avatar.html">Avatar</a>
+            </li>
+            <li class="aside-link">
+              <a class="link" href="../components/badge.html">Badge</a>
+            </li>
+            <li class="aside-link">
+              <a class="link" href="../components/button.html">Button</a>
+            </li>
+            <li class="aside-link">
+              <a class="link" href="../components/card.html">Card</a>
+            </li>
+            <li class="aside-link">
+              <a class="link" href="../components/image.html">Image</a>
+            </li>
+            <li class="aside-link">
+              <a class="link" href="../components/input.html">Input</a>
+            </li>
+            
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- Aside Left Ends -->
+
+      <!-- Main Documentation Starts -->
+
+      <main class="main-documentation">
+        <h1 class="mb-3">Avatar</h1>
+        <p class="main-text">Avatars can be used for user profile picture.</p>
+
+        <!-- Same Sized Avatars Starts -->
+
+        <section class="my-2 section-component" id="same-sized">
+          <h2 class="my-2">Same Sized Avatars</h2>
+
+          <div class="component-container pt-2">
+            <div>
+              <img
+          class="avatar"
+          src="/assets/images/avatar1.png"
+          alt=" avatar1 "
+        />
+
+        <img
+          class="avatar"
+          src="/assets/images/avatar2.png"
+          alt="avatar 2"
+        />
+
+        <img
+          class="avatar"
+          src="/assets/images/avatar3.jpeg"
+          alt="avatar 3"
+        />
+
+        <img
+          class="avatar"
+          src="/assets/images/avatar4.jpg"
+          alt="avatar4"
+        />
+
+        <img
+          class="avatar"
+          src="/assets/images/avatar5.jpg"
+          alt="avatar5"
+        />
+            </div>
+
+            <pre class="pre-code">
+              <code class="language-html">      
+          &lt;img class="avatar" src="..." alt="..." />
+          &lt;img class="avatar mx-1" src="..." alt="..." />        
+          &lt;img class="avatar" src="..." alt="..." />
+          &lt;img class="avatar mx-1" src="..." alt="..." />
+          &lt;img class="avatar" src="..." alt="..." />
+              </code>
+            </pre>
+          </div>
+        </section>
+
+        <!-- Same Sized Avatars Ends -->
+
+        <!-- Different Sized Avatars Starts -->
+
+        <section class="my-2 section-component" id="different-sized">
+          <h2 class="my-2">Different Sized Avatars</h2>
+
+          <div class="component-container pt-2">
+            <div>
+              <img
+          class="avatar avatar-xs"
+          src="/assets/images/avatar1.png"
+          alt=" avatar1 "
+        />
+
+        <img
+          class="avatar avatar-sm"
+          src="/assets/images/avatar2.png"
+          alt="avatar 2"
+        />
+
+        <img
+          class="avatar"
+          src="/assets/images/avatar3.jpeg"
+          alt="avatar 3"
+        />
+
+        <img
+          class="avatar avatar-md"
+          src="/assets/images/avatar4.jpg"
+          alt="avatar4"
+        />
+
+        <img
+          class="avatar avatar-lg"
+          src="/assets/images/avatar5.jpg"
+          alt="avatar5"
+        />
+            </div>
+
+            <pre class="pre-code">
+              <code class="language-html">      
+          &lt;img class="avatar avatar-xs" src="..." alt="..." />
+          &lt;img class="avatar avatar-sm mx-1" src="..." alt="..." />
+          &lt;img class="avatar" src="..." alt="..." />
+          &lt;img class="avatar avatar-md mx-1" src="..." alt="..." />
+          &lt;img class="avatar avatar-lg" src="..." alt="..." />
+              </code>
+            </pre>
+          </div>
+        </section>
+
+        <!-- Different Sized Avatars Ends -->
+      </main>
+
+      <!-- Main Documentation Ends -->
+
+     
+
+  
+     
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>
