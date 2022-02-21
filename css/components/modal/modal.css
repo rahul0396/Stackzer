@@ -1,0 +1,9 @@
+.modal-container{
+    width: 100%
+}
+.modal-header{
+    display: flex;
+}
+.modal-button{
+    margin-left: auto;
+}
