@@ -4,7 +4,7 @@
 
 # Stackzer
   
-###Design your dream project better and faster.
+### Design your dream project better and faster.
   </div>
   ---
   ## Documentation
@@ -21,7 +21,7 @@ To start using the components in your project, Copy-paste the stylesheet `<link>
 <link rel="stylesheet" href="https://stackzer.netlify.app/css/main.css" />
 ```
   ---
-###Components
+### Components
   <ul>
  <li >
    <a  href="../components/alert.html">Alert</a>
@@ -61,7 +61,7 @@ To start using the components in your project, Copy-paste the stylesheet `<link>
  </li>
   </ul>
   ---
-  ###Alert
+  ### Alert
   Alerts can be used to show a message to the user.
   
   To find more detail on the below topics visit documentation on [Alert](https://stackzer.netlify.app/pages/components/alert.html)
@@ -72,13 +72,13 @@ To start using the components in your project, Copy-paste the stylesheet `<link>
 -   Success alert
 -   Warning alert
 ---  
-###Avatar
+### Avatar
   Avatars can be used for user profile picture.
   To find more detail on the below topics visit documentation on [Alert](https://stackzer.netlify.app/pages/components/avatar.html)
   - Same Sized Avatars
   - Different Sized Avatars
   ---
-  ###Badge
+  ### Badge
   Badge can be used to show either status of the user (online, or offline) or you can use it show notification count.
   To find more detail on the below topics visit documentation on [Alert](https://stackzer.netlify.app/pages/components/badge.html)
 - Badge on Icon
