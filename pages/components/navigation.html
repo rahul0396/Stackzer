@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stackzer UI | Introduction</title>
-
-
     <!-- font awesome -->
     <link
       rel="stylesheet"
@@ -15,23 +13,20 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
     <!-- highlight.js cdn -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css"
     />
-
     <!-- Link main css -->
     <link rel="stylesheet" href="/css/main.css">
-
     <!-- stackzerui-documentation css -->
     <link rel="stylesheet" href="../../app.css" />
+    <link rel="stylesheet" href="/css/components/list/list.css">
   </head>
   <body>
     <div class="container documentation m-auto p-2">
       <!-- Header Documentation Starts -->
-
       <header class="header header-documentation">
         <img
         class="img-brand-logo"
@@ -39,7 +34,6 @@
         alt="brand logo png"
       />
         <a class="link-brand mx-1" href="../../index.html">Stackzer UI</a>
-
         <nav class="ml-auto">
           <ul>
             <li class="inline-block mx-1">
@@ -59,12 +53,10 @@
           </ul>
         </nav>
       </header>
-
       <!-- Header Documentation Ends -->
+     <!-- Aside Left Starts -->
 
-    <!-- Aside Left Starts -->
-
-    <aside class="aside-left">
+     <aside class="aside-left">
       <nav class="aside-container aside-left-container">
         <ul class="aside-left-list mb-3">
           <h3 class="my-1p5">Getting Started</h3>
@@ -120,118 +112,74 @@
     </aside>
 
     <!-- Aside Left Ends -->
+
       <!-- Main Documentation Starts -->
-
       <main class="main-documentation">
-        <h1 class="mb-3">Image</h1>
+        <h1 class="mb-3">Navigation</h1>
         <p class="main-text">
-          Image can be used to display large picture on the website.
-        </p>
-
-        <!-- Round Image Starts -->
-
-        <section class="my-2 section-component" id="img-round">
-          <h2 class="my-2">Round Image</h2>
-
-          <div class="component-container pt-2">
-            <div>
-             
-              <img
-              class="img img-round mx-1"
-              src="/assets/images/peanut butter Natural 1.jpg"
-              alt="peanut image"
-            />
-            <img
-              class="img img-round mx-1"
-              src="/assets/images/peanut butter natural1.jpg"
-              alt="california peanut image"
-            />
-            </div>
-
-            <pre class="pre-code">
-              <code class="language-html">      
-          &lt;img class="img img-round mx-1" src="..." alt="..."/>
-          &lt;img class="img img-round mx-1" src="..." alt="..."/>
-              </code>
-            </pre>
-          </div>
-        </section>
-
-        <!-- Round Image Ends -->
-
-        <!-- Square Image Starts -->
-
-        <section class="my-2 section-component" id="img-square">
-          <h2 class="my-2">Square Image</h2>
-
-          <div class="component-container pt-2">
-            <div>
-              <img
-          class="img img-square mx-1"
-          src="/assets/images/peanut butter Natural 1.jpg"
-          alt="peanut image"
-        />
-        <img
-          class="img img-square mx-1"
-          src="/assets/images/peanut butter natural1.jpg"
-          alt="california peanut image"
-        />
-            </div>
-
-            <pre class="pre-code">
-              <code class="language-html">      
-          &lt;img class="img img-square mx-1" src="..." alt="..."/>
-          &lt;img class="img img-square mx-1" src="..." alt="..."/>
-              </code>
-            </pre>
-          </div>
-        </section>
-
-        <!-- Square Image Ends -->
-
-        <!-- Responsive Image Starts -->
-
-        <section class="my-2 section-component" id="img-responsive">
-          <h2 class="my-2">Responsive Image</h2>
-          <p class="my-2 section-text">
-            Resize your browser window, to see its responsiveness.
-          </p>
-
-          <div class="component-container pt-2">
-            <div class="img-container">
-              <!-- .img-container {max-width: 52vw;} -->
-
-              <img
-              class="img-responsive"
-              src="/assets/images/peanut butter Natural 1.jpg"
-              alt="peanut image"
-            />
-            </div>
-
-            <pre class="pre-code">
-                <code class="language-html">  
-            &lt;div class="img-container">
-              &lt;!-- .img-container {max-width: 52vw;} -->
-
-              &lt;img class="img-responsive" src="..." alt="..."/>
-            &lt;div>
-                </code>
-              </pre>
-          </div>
-        </section>
-
-        <!-- Square Image Ends -->
-      </main>
-
-      <!-- Main Documentation Ends -->
-
-     
-
-     
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-    <script>
-      hljs.highlightAll();
+          Navigation is used for taking the user to different pages. It has different types of navigation like header navigation, bottom navigation and drawer navigation. Here we have provided only header navigation.  </p>
+        <!-- navbar start -->
+        <section class="my-2 section-component">
+            <div class="navbar-section">
+    <nav class="navbar p-0p5 flex m-0">
+        <div class="brand-name m-0p5 fs-1p5">
+            Naturewell</div>
+            <div class="search-bar my-0p5 mx-auto">
+                <input class="search-input fs-1p2 px-1 py-0 border-none" type="text" placeholder="Search for products">
+                <button class=" hy-search-btn absolute border-none" type="submit">
+                    <i class="fas fa-search fs-1p2" title="search"></i>
+                </button>
+        </div>
+        <div class="account-basket-btn my-0 mx-1 absolute">
+            <a href="/pages/wishlist.html">
+                <i class="far fa-heart m-auto"></i>
+            </a>
+            <a href="/pages/login.html">
+                <button class="nav-btn fs-1p2 p-0p5 m-0p5 border-none">Sign up | Log In</button>
+            </a>
+            <a href="/pages/cartpage.html">
+                <button class="nav-btn fs-1p2 p-0p5 m-0p5 border-none">Cart 
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+            </a>
+        </div>
+    </nav>
+</div> 
+    <pre class="pre-code">
+        <code class="language-html">      
+&lt;div class="navbar-section">
+    &lt;nav class="navbar p-0p5 flex m-0">
+        &lt;div class="brand-name m-0p5 fs-1p5">
+            Naturewell&lt;/div>
+            &lt;div class="search-bar my-0p5 mx-auto">
+                &lt;input class="search-input fs-1p2 px-1 py-0 border-none" type="text" placeholder="Search for products">
+                &lt;button class=" hy-search-btn absolute border-none" type="submit">
+                    &lt;i class="fas fa-search fs-1p2" title="search">&lt;/i>
+                &lt;/button>
+            &lt;/div>
+        &lt;div class="account-basket-btn my-0 mx-1 absolute">
+            &lt;a href="/pages/wishlist.html">
+                &lt;i class="far fa-heart m-auto">&lt;/i>
+            &lt;/a>
+            &lt;a href="/pages/login.html">
+                &lt;button class="nav-btn fs-1p2 p-0p5 m-0p5 border-none">Sign up | Log In&lt;/button>
+            &lt;/a>
+            &lt;a href="/pages/cartpage.html">
+                &lt;button class="nav-btn fs-1p2 p-0p5 m-0p5 border-none">Cart 
+                    &lt;i class="fa-solid fa-cart-shopping">&lt;/i>
+                &lt;/button>
+            &lt;/a>
+        &lt;/div>
+    &lt;/nav>
+&lt;/div> 
+        </code>
+    </pre>
+</section>
+<!-- navbar ends -->
+<!-- Main Documentation Ends -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+<script>
+    hljs.highlightAll();
     </script>
   </body>
-</html>
+  </html>

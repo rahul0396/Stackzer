@@ -27,6 +27,7 @@
 
     <!-- stackzerui-documentation css -->
     <link rel="stylesheet" href="../../app.css" />
+    <!-- <link rel="stylesheet" href="/css/components/rating/rating.css"> -->
   </head>
   <body>
     <div class="container documentation m-auto p-2">
@@ -123,123 +124,111 @@
       <!-- Main Documentation Starts -->
 
       <main class="main-documentation">
-        <h1 class="mb-3">Badge</h1>
+        <h1 class="mb-3">Text Utilities</h1>
         <p class="main-text">
-          Badge can be used to show either status of the user (online, or
-          offline) or you can use it show notification count.
-        </p>
+            Text Utilities provide different text styles.  </p>
 
-        <!-- Badge on Icons Starts -->
+        <!-- Heading Starts -->
 
-        <section class="my-2 section-component" id="badge-icon">
-          <h2 class="my-2">Badge on Icons</h2>
+        <section class="my-2 section-component">
+          <h2 class="my-2">Heading</h2>
 
           <div class="component-container pt-2">
-            <div>
-              <button class="badge-btn mx-1">
-                <i class="fas fa-home"></i>
-                <span class="badge-count bg-amber-500">9</span>
-              </button>
+            <div >
+              <!-- heading -->
+                  <h1 >Heading 1</h1>
+                  <h2 >Heading 2</h2>
+                  <h3 >Heading 3</h3>
+                  <h4 >Heading 4</h4>
+                  <h5 >Heading 5</h5>
+                  <h6 >Heading 6</h6>
 
-              <button class="badge-btn mx-1">
-                <i class="fas fa-shopping-cart"></i>
-                <span class="badge-count bg-lime-500">9+</span>
-              </button>
-
-              <button class="badge-btn mx-1">
-                <i class="fas fa-bell"></i>
-                <span class="badge-count bg-red-500"> 99+ </span>
-              </button>
             </div>
+                
 
             <pre class="pre-code">
               <code class="language-html">      
-          &lt;button class="badge-btn mx-1">
-            &lt;i class="fas fa-home">&lt;/i>
-            &lt;span class="badge-count bg-amber-500">9&lt;/span>
-          &lt;/button>
-  
-          &lt;button class="badge-btn mx-1">
-            &lt;i class="fas fa-shopping-cart">&lt;/i>
-            &lt;span class="badge-count bg-lime-500">9+&lt;/span>
-          &lt;/button>
-  
-          &lt;button class="badge-btn mx-1">
-            &lt;i class="fas fa-bell">&lt;/i>
-            &lt;span class="badge-count bg-red-500"> 99+ &lt;/span>
-          &lt;/button>            
+    &lt;h1 >Heading 1&lt;/h1>
+    &lt;h2 >Heading 2&lt;/h2>
+    &lt;h3 >Heading 3&lt;/h3>
+    &lt;h4 >Heading 4&lt;/h4>
+    &lt;h5 >Heading 5&lt;/h5>
+    &lt;h6 >Heading 6&lt;/h6>
+
               </code>
             </pre>
           </div>
         </section>
 
-        <!-- Badge on Icons Ends -->
+        <!-- heading Ends -->
+<!-- paragraph Starts -->
 
-        <!-- Badge on Avatars Starts -->
+<section class="my-2 section-component">
+  <h2 class="my-2">Paragraph</h2>
 
-        <section class="my-2 section-component" id="badge-avatar">
-          <h2 class="my-2">Badge on Avatars</h2>
+  <div class="component-container pt-2">
+    <div >
+      <!-- paragraph -->
+          <p class="fs-lg my-0p5">Paragraph of Large text </p>
+          <p class="fs-md my-0p5">Paragraph of Medium text </p>
+          <p class="fs-sm my-0p5">Paragraph of Small text </p>
 
-          <div class="component-container pt-2">
-            <div class="badge">
-              <img
-              class="avatar"
-              src="/assets/images/avatar2.png"
-              alt="avatar 2"
-            />
-    
-              <span class="badge-status bg-lime-500"></span>
-            </div>
-    
-            <div class="badge">
-              
-            <img
-            class="avatar "
-            src="/assets/images/avatar1.png"
-            alt=" avatar1 "
-          />
-    
-              <span class="badge-status bg-red-500"></span>
-            </div>
-    
-            <div class="badge">
-              <img
-              class="avatar"
-              src="/assets/images/avatar2.png"
-              alt="avatar 2"
-            />
-              
-    
-              <span class="badge-status bg-slate-400"></span>
-            </div>
+    </div>
 
-            <pre class="pre-code">
-              <code class="language-html">      
-          &lt;div class="badge">
-            &lt;img class="avatar" src="..." alt="..." />        
-            &lt;span class="badge-status bg-lime-500">&lt;/span>
-          &lt;/div>
+    <pre class="pre-code">
+      <code class="language-html">      
+        &lt;p class="fs-lg my-0p5">Paragraph of Large text &lt;/p>
+        &lt;p class="fs-md my-0p5">Paragraph of Medium text &lt;/p>
+        &lt;p class="fs-sm my-0p5">Paragraph of Small text &lt;/p>
 
-          &lt;div class="badge">
-            &lt;img class="avatar" src="..." alt="..." />        
-            &lt;span class="badge-status bg-red-500">&lt;/span>
-          &lt;/div>
-  
-          &lt;div class="badge">
-            &lt;img class="avatar" src="..." alt="..." />
-            &lt;span class="badge-status bg-slate-400">&lt;/span>
-          &lt;/div>
-              </code>
-            </pre>
-          </div>
-        </section>
+      </code>
+    </pre>
+  </div>
+</section>
 
-        <!-- Badge on Avatars Ends -->
+<!-- paragraph Ends -->
+      
+
+<!-- Text Alignment Starts -->
+
+<section class="my-2 section-component">
+  <h2 class="my-2">Text Alignment</h2>
+
+  <div class="component-container pt-2">
+    <div >
+      <!-- Text Alignment -->
+          <p class="text-right my-0p5">Text Alignment to Right </p>
+          <p class="text-center my-0p5">Text Alignment to Center </p>
+          <p class="text-left my-0p5">Text Alignment to Left </p>
+          
+
+    </div>  
+
+    <pre class="pre-code">
+      <code class="language-html">      
+          &lt;p class="text-right my-0p5">Text Alignment to Right &lt;/p>
+          &lt;p class="text-center my-0p5">Text Alignment to Center &lt;/p>
+          &lt;p class="text-left my-0p5">Text Alignment to Left &lt;/p>
+
+      </code>
+    </pre>
+  </div>
+</section>
+
+<!-- Text Alignment Ends -->
       </main>
 
       <!-- Main Documentation Ends -->
 
 
+
+      <!-- font-awesome script -->
+      <script
+      src="https://kit.fontawesome.com/edf7bdb339.js"
+      crossorigin="anonymous"
+    ></script>
+
+     
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script>

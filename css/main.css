@@ -2,26 +2,28 @@
 
 /** Components **/
 
-@import url("components/Alert/alert.css");
-@import url("components/Avatar/avatar.css");
+@import url("components/alert/alert.css");
+@import url("components/avatar/avatar.css");
 
-@import url("components/Badge/badge.css");
-@import url("components/Button/button.css");
-@import url("components/Button/outline.css");
-@import url("components/Button/solid.css");
+@import url("components/badge/badge.css");
+@import url("components/button/button.css");
+@import url("components/button/outline.css");
+@import url("components/button/solid.css");
 
-@import url("components/Card/card.css");
-@import url("components/Card/dismiss.css");
-@import url("components/Card/horizontal.css");
-@import url("components/Card/textOverlay.css");
-@import url("components/Card/vertical.css");
+@import url("components/card/card.css");
+@import url("components/card/dismiss.css");
+@import url("components/card/horizontal.css");
+@import url("components/card/textOverlay.css");
+@import url("components/card/vertical.css");
 
-@import url("components/Image/image.css");
-@import url("components/Input/input.css");
+@import url("components/image/image.css");
+@import url("components/input/input.css");
+@import url("components/list/list.css");
+@import url("components/modal/modal.css");
+@import url("components/navigation/navigation.css");
+@import url("components/rating/rating.css");
 
-@import url("components/Modal/modal.css");
-@import url("components/Navigation/navigation.css");
-@import url("components/Toast/toast.css");
+
 
 /** Utilities **/
 
