@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Rating start */
 
 .rating {
@@ -18,4 +19,26 @@ font-size: 2rem;
 .rating.sm {
     font-size: 1.2rem;
 }
+=======
+/* Rating start */
+
+.rating {
+    width: fit-content;
+}
+
+.rating i {
+    color: var(--COLOR-BRAND);
+}
+
+.rating .rating-info {
+    margin-left: 1rem;
+}
+
+.rating.lg {
+font-size: 2rem;
+}
+.rating.sm {
+    font-size: 1.2rem;
+}
+>>>>>>> e80bc6b7a2a931ef821b55d376014078c3862abe
 /* Rating ends */
