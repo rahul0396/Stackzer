@@ -60,7 +60,10 @@ To start using the components in your project, Copy-paste the stylesheet `<link>
    <a  href="../components/textutilities.html">Text Utilities</a>
  </li>
   </ul>
+  
   ---
+  
+  
   ### Alert
   
   Alerts can be used to show a message to the user.
