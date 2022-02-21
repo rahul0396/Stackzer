@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stackzer UI | Introduction</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- highlight.js cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css"
+    />
+    <!-- Link main css -->
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- stackzerui-documentation css -->
+    <link rel="stylesheet" href="../../app.css" />
+    <link rel="stylesheet" href="/css/components/list/list.css">
+  </head>
+  <body>
+    <div class="container documentation m-auto p-2">
+      <!-- Header Documentation Starts -->
+      <header class="header header-documentation">
+        <img
+        class="img-brand-logo"
+        src="/assets/brand-logos/brand-logo.jpg"
+        alt="brand logo png"
+      />
+        <a class="link-brand mx-1" href="../../index.html">Stackzer UI</a>
+        <nav class="ml-auto">
+          <ul>
+            <li class="inline-block mx-1">
+              <a class="link" href="../../index.html">Home</a>
+            </li>
+            <li class="inline-block mx-1">
+              <a class="link" href="/pages/getting-started/introduction.html">Docs</a>
+            </li>
+            <li class="inline-block mx-1">
+              <a
+                class="link"
+                href="https://github.com/rahul0396/Stackzer"
+                target="_blank"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Header Documentation Ends -->
+      <!-- Aside Left Starts -->
+      <aside class="aside-left">
+        <nav class="aside-container aside-left-container">
+          <ul class="aside-left-list mb-3">
+            <h3 class="my-1p5">Getting Started</h3>
+            <li class="aside-link">
+              <a class="link link-active" href="/pages/getting-started/introduction.html"
+                >Introduction</a
+              >
+            </li>
+          <ul class="aside-left-list mb-3">
+            <h3 class="my-1p5">Components</h3>
+            <li class="aside-link">
+              <a class="link" href="../components/alert.html">Alert</a>
+            </li>
+            <li class="aside-link">
+              <a class="link" href="../components/avatar.html">Avatar</a>
+            </li>
+            <li class="aside-link">
+              <a class="link" href="../components/badge.html">Badge</a>
+            </li>
+            <li class="aside-link">
+              <a class="link" href="../components/button.html">Button</a>
+            </li>
+            <li class="aside-link">
+              <a class="link" href="../components/card.html">Card</a>
+            </li>
+            <li class="aside-link">
+              <a class="link" href="../components/image.html">Image</a>
+            </li>
+            <li class="aside-link">
+              <a class="link" href="../components/input.html">Input</a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <!-- Aside Left Ends -->
+      <!-- Main Documentation Starts -->
+      <main class="main-documentation">
+        <h1 class="mb-3">Navigation</h1>
+        <p class="main-text">
+          Navigation is used for taking the user to different pages. It has different types of navigation like header navigation, bottom navigation and drawer navigation. Here we have provided only header navigation.  </p>
+        <!-- navbar start -->
+        <section class="my-2 section-component">
+            <div class="navbar-section">
+    <nav class="navbar p-0p5 flex m-0">
+        <div class="brand-name m-0p5 fs-1p5">
+            Naturewell</div>
+            <div class="search-bar my-0p5 mx-auto">
+                <input class="search-input fs-1p2 px-1 py-0 border-none" type="text" placeholder="Search for products">
+                <button class=" hy-search-btn absolute border-none" type="submit">
+                    <i class="fas fa-search fs-1p2" title="search"></i>
+                </button>
+        </div>
+        <div class="account-basket-btn my-0 mx-1 absolute">
+            <a href="/pages/wishlist.html">
+                <i class="far fa-heart m-auto"></i>
+            </a>
+            <a href="/pages/login.html">
+                <button class="nav-btn fs-1p2 p-0p5 m-0p5 border-none">Sign up | Log In</button>
+            </a>
+            <a href="/pages/cartpage.html">
+                <button class="nav-btn fs-1p2 p-0p5 m-0p5 border-none">Cart 
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+            </a>
+        </div>
+    </nav>
+</div> 
+    <pre class="pre-code">
+        <code class="language-html">      
+&lt;div class="navbar-section">
+    &lt;nav class="navbar p-0p5 flex m-0">
+        &lt;div class="brand-name m-0p5 fs-1p5">
+            Naturewell&lt;/div>
+            &lt;div class="search-bar my-0p5 mx-auto">
+                &lt;input class="search-input fs-1p2 px-1 py-0 border-none" type="text" placeholder="Search for products">
+                &lt;button class=" hy-search-btn absolute border-none" type="submit">
+                    &lt;i class="fas fa-search fs-1p2" title="search">&lt;/i>
+                &lt;/button>
+            &lt;/div>
+        &lt;div class="account-basket-btn my-0 mx-1 absolute">
+            &lt;a href="/pages/wishlist.html">
+                &lt;i class="far fa-heart m-auto">&lt;/i>
+            &lt;/a>
+            &lt;a href="/pages/login.html">
+                &lt;button class="nav-btn fs-1p2 p-0p5 m-0p5 border-none">Sign up | Log In&lt;/button>
+            &lt;/a>
+            &lt;a href="/pages/cartpage.html">
+                &lt;button class="nav-btn fs-1p2 p-0p5 m-0p5 border-none">Cart 
+                    &lt;i class="fa-solid fa-cart-shopping">&lt;/i>
+                &lt;/button>
+            &lt;/a>
+        &lt;/div>
+    &lt;/nav>
+&lt;/div> 
+        </code>
+    </pre>
+</section>
+<!-- navbar ends -->
+<!-- Main Documentation Ends -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+<script>
+    hljs.highlightAll();
+    </script>
+  </body>
+  </html>
