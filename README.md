@@ -6,7 +6,9 @@
   
 ### Design your dream project better and faster.
   </div>
+  
   ---
+  
   ## Documentation
 
 For examples and code samples, check out in depth [Documentation](https://stackzer.netlify.app/)
