@@ -1,10 +1,11 @@
 <div align="center">
 <img src="assets/brand-logos/brand-logo.jpg" alt="stackzer-logo" width="150px" height="150px" />
+  
 
 # Stackzer
   
 ###Design your dream project better and faster.
-  
+  </div>
   
   ## Documentation
 
