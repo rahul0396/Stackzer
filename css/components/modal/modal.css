@@ -1,20 +1,14 @@
-<<<<<<< HEAD
-/* .modal-container{
-    width: 100%
-} */
+
 .modal-header{
     display: flex;
 }
 .modal-button{
     margin-left: auto;
-=======
-.modal-container{
-    width: 100%
+
 }
 .modal-header{
     display: flex;
 }
 .modal-button{
     margin-left: auto;
->>>>>>> e80bc6b7a2a931ef821b55d376014078c3862abe
 }
